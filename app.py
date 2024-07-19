@@ -4,10 +4,10 @@ import streamlit as st
 import joblib 
 
 # loading the trained model.
-model = joblib.load('model/modelo-final-LR.pkl')
+model = joblib.load('modelo-final-LR.pkl')
 
 # carregando uma amostra dos dados.
-dataset = pd.read_csv('data/imoveis.csv') 
+dataset = pd.read_csv('imoveis.csv') 
 #classifier = pickle.load(pickle_in)
 
 
